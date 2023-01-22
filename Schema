@@ -1,0 +1,61 @@
+
+CREATE TABLE Booking_Table(
+	Tdate date,
+	Train_no integer not null,
+	AC_no integer not null,
+	SL_no integer not null,
+	PRIMARY KEY (Tdate , Train_no)
+    	
+);
+
+
+CREATE  TABLE SL_template( Berth_no integer not null , Berth_type varchar(2) not null, Allotment varchar not null );
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 1 ,'LB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 2 ,'MB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 3 ,'UB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 4 ,'LB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 5 ,'MB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 6 ,'UB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 7 ,'SL', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 8 ,'SU', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 9 ,'LB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 10 ,'MB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 11 ,'UB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 12 ,'LB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 13 ,'MB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 14 ,'UB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 15 ,'SL', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 16 ,'SU', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 17 ,'LB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 18 ,'MB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 19 ,'UB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 20 ,'LB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 21 ,'MB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 22 ,'UB', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 23 ,'SL', 'No');
+Insert into SL_template( Berth_no, Berth_type, Allotment) values ( 24 ,'SU', 'No');
+
+
+CREATE  TABLE AC_template( Berth_no integer not null , Berth_type varchar(2) not null, Allotment varchar not null );
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 1 ,'LB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 2 ,'LB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 3 ,'UB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 4 ,'UB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 5 ,'SL', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 6 ,'SU', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 7 ,'LB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 8 ,'LB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 9 ,'UB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 10 ,'UB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 11 ,'SL', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 12 ,'SU', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 13 ,'LB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 14 ,'LB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 15 ,'UB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 16 ,'UB', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 17 ,'SL', 'No');
+Insert into AC_template( Berth_no, Berth_type, Allotment) values ( 18 ,'SU', 'No');
+
+
+
+
