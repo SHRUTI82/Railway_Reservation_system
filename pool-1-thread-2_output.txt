@@ -1,0 +1,9 @@
+Train_no : 4423       Date : 2023-02-19        PNR : 9424999493
+Name  Coach  Berth_no  Berth_type
+QNLT     S4      9       LB
+TPBN     S4      10       MB
+HJSC     S4      11       UB
+VFVY     S4      12       LB
+ZGBN     S4      13       MB
+
+
